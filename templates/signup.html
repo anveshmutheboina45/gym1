@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+signup
+{% endblock title %}
+{% block head %}
+<h1>Signup Here</h1>
+
+<form>
+    <div class="form-group">
+     <input type="number" class="form-control mt-2" name="usernumber" placeholder="Phone Number">
+     <input type="email" class="form-control mt-2" name="email" placeholder="email">
+     <input type="password" class="form-control mt-2" name="password" placeholder="password">
+     <input type="password" class="form-control mt-2" name="confirm password" placeholder="confirm password">
+    <button type="submit" class="btn btn-primary mt-2">Submit</button>
+  </form>
+{% endblock %}
